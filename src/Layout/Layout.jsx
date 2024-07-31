@@ -11,7 +11,7 @@ const Layout = () => {
   };
 
   return (
-    <div className={`flex  w-full`}>
+    <div className={`flex min-h-screen  w-full`}>
       {isSidebarVisible && <Sidebar />}
       <div className="flex flex-col flex-1">
         <Navbar toggleSidebar={toggleSidebar} />
